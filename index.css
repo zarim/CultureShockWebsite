@@ -1,7 +1,7 @@
 html {
     height: 100%;
     width: 100%;
-    background-image: url('./images/header.PNG');
+    background-image: url('./images/CS-XL2.png');
     min-height: 800px;
     background-position:center;
 	background-repeat:no-repeat;
@@ -51,7 +51,7 @@ body {
     html {
         height: 100%;
         width: 100%;
-        background-image: url('./images/CS-XS.png');
+        background-image: url('./images/CS-XS2.png');
         min-height: 800px;
         background-position:center;
         background-repeat:no-repeat;
@@ -64,7 +64,7 @@ body {
     html {
         height: 100%;
         width: 100%;
-        background-image: url('./images/CS-S.png');
+        background-image: url('./images/CS-S2.png');
         min-height: 800px;
         background-position:center;
         background-repeat:no-repeat;
@@ -77,7 +77,7 @@ body {
     html {
         height: 100%;
         width: 100%;
-        background-image: url('./images/CS-M.png');
+        background-image: url('./images/CS-M2.png');
         min-height: 800px;
         background-position:center;
         background-repeat:no-repeat;
@@ -90,7 +90,7 @@ body {
     html {
         height: 100%;
         width: 100%;
-        background-image: url('./images/CS-L.png');
+        background-image: url('./images/CS-L2.png');
         min-height: 800px;
         background-position:center;
         background-repeat:no-repeat;
@@ -103,7 +103,7 @@ body {
     html {
         height: 100%;
         width: 100%;
-        background-image: url('./images/CS-XL.png');
+        background-image: url('./images/CS-XL2.png');
         min-height: 800px;
         background-position:center;
         background-repeat:no-repeat;

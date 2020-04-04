@@ -94,21 +94,38 @@ body {
 
 .overlay {
     position: absolute;
+    top: 0;
     bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); /* Black see-through */
-    color: #f1f1f1;
+    left: 0;
+    right: 0;
+    height: 100%;
     width: 100%;
+    opacity: 0;
     transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
+    background-color: rgb(247, 121, 121);
+    /* background-color: rgb(253, 208, 82); */
+}
+
+.circle-cropper:hover .overlay {
+    opacity: 1;
 }
 
 #profile-pic {
-    width: inherit;
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 #text {
