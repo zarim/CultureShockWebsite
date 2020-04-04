@@ -5,7 +5,8 @@ html {
     min-height: 800px;
     background-position:center;
 	background-repeat:no-repeat;
-	background-size:cover;
+    background-size:cover;
+    overflow: hidden;
 }
 
 body {
@@ -21,14 +22,14 @@ body {
     display: flex;
     flex-direction: row;
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 #menu-item {
     margin: auto;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 47px;
     display: flex;
     align-items: center;
@@ -45,9 +46,10 @@ body {
 }
 
 .main {
-    height: 100%;
+    height: 75%;
     width: 100%;
     display: flex;
+    flex-direction: column;
 }
 
 .creators {
@@ -115,7 +117,50 @@ body {
     color: white;
 }
 
+.format-header {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin: 4%;
+}
+
 .format {
     text-align: justify;
     margin: 4% 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    text-decoration: underline;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .creators {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-width: 850px) {
+    .creators {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 851px) and (max-width: 991px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
