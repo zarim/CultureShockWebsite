@@ -1,0 +1,36 @@
+html {
+    height: 100%;
+    width: 100%;
+    background-color: lightcoral;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+#menu-item {
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#menu-item a {
+    text-decoration: none;
+    color: white;
+}
