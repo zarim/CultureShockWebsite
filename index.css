@@ -24,14 +24,12 @@ body {
     height: 70px;
     display: flex;
     flex-direction: row;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-size: 25px;
 }
 
 #menu-item {
     margin: auto;
-    font-family: 'Roboto Condensed', sans-serif;
-    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
     font-size: 25px;
     line-height: 47px;
     display: flex;
