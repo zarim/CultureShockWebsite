@@ -48,6 +48,10 @@ body {
     color: white;
 }
 
+.selected {
+    text-decoration: underline !important;
+}
+
 .about {
     background-color: lightcoral;
     height: 500px;

@@ -1,7 +1,11 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: lightskyblue;
+    background-image: url('../images/creators-background.png');
+    min-height: 800px;
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 body {
@@ -33,4 +37,21 @@ body {
 #menu-item a {
     text-decoration: none;
     color: white;
+}
+
+.selected {
+    text-decoration: underline !important;
+}
+
+.circle-cropper {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: auto;
+}
+
+#profile-pic {
+    width: inherit;
 }

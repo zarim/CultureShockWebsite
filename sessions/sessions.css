@@ -1,7 +1,11 @@
 html {
     height: 100%;
     width: 100%;
-    background-color: lightseagreen;
+    background-image: url('../images/sessions-background.png');
+    min-height: 800px;
+    background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 body {
@@ -35,8 +39,11 @@ body {
     color: white;
 }
 
+.selected {
+    text-decoration: underline !important;
+}
+
 .sessions {
-    background-color: aliceblue;
     height: 100%;
     display: flex;
     flex-direction: column;
