@@ -22,3 +22,14 @@ function expand(i) {
         document.getElementById("tooltip-expand").id = "tooltip-collapse";
     }
 }
+
+/* Function to handle if the user pressed a session using enter */
+function handle(e, i){
+    //Prevent the default action
+    e.preventDefault(); 
+    //if the key that's entered is 'enter'
+    if (e.keyCode == 13) {
+        //call the expand function
+        expand(i);
+    }
+}

@@ -110,6 +110,10 @@ body {
     opacity: 1;
 }
 
+.circle-cropper:focus .overlay {
+    opacity: 1;
+}
+
 #profile-pic {
     width: 100%;
     display: block;
