@@ -7,6 +7,7 @@ html {
 	background-repeat:no-repeat;
     background-size:cover;
     overflow: hidden;
+    background-color: rgb(142, 188, 195);
 }
 
 body {
@@ -110,8 +111,9 @@ body {
     opacity: 1;
 }
 
-.circle-cropper:focus .overlay {
+.circle-cropper:focus-within .overlay {
     opacity: 1;
+    border-radius: 50%;
 }
 
 #profile-pic {

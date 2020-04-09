@@ -13,10 +13,10 @@ function expand(i) {
 
     //display the bottom and correct session divs
     document.getElementById("bottom").style.display = "block";
-    document.getElementById(session).style.display = "block";
+    document.getElementById(session).style.display = "flex";
 
     //if a current session and bottom display are open close them
-    if (sessionDisplay == "block" && bottomDisplay == "block") {
+    if (sessionDisplay == "flex" && bottomDisplay == "block") {
         document.getElementById("bottom").style.display = "none";
         document.getElementById(session).style.display = "none";
         document.getElementById("tooltip-expand").id = "tooltip-collapse";
