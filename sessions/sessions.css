@@ -265,10 +265,8 @@ body {
 
 .activity {
     display: flex;
-    /* justify-content: center; */
     text-align: justify;
     align-items: center;
-    /* background-color: brown; */
     width: 33.33%;
     color: white;
     flex-direction: column;
@@ -283,10 +281,8 @@ body {
 
 .discussion {
     display: flex;
-    /* justify-content: center; */
     text-align: justify;
     align-items: center;
-    /* background-color: lightgrey; */
     width: 33.33%;
     color: white;
     flex-direction: column;
@@ -301,10 +297,8 @@ body {
 
 .instructions {
     display: flex;
-    /* justify-content: center; */
     text-align: justify;
     align-items: center;
-    /* background-color: lightskyblue; */
     width: 33.33%;
     color: white;
     flex-direction: column;
